@@ -216,6 +216,7 @@ h2 a:hover {color: #811819; text-decoration: underline;}
 
 .horse_detail {padding-top: 20px;}
 .horse_image {text-align: center; margin: 15px 0 25px;}
+.horse_image .colorbox img {margin-top: 10px;}
 .pedigree {padding: 30px 0 0 0;}
 .pedigree table {width: 100%;}
 .pedigree table td {font-size: 14px; vertical-align: middle; border-top: 1px solid #312d2a; padding: 15px 0;}
@@ -237,24 +238,22 @@ ul.thumbnails {padding: 0 20px;}
 .clearfix:after {clear: both;}
 .clearfix {*zoom: 1;} 
 
-a {color: rgb(129, 24, 25)
-}
-a:hover {color: rgb(129, 24, 25)
-}
-a:active {color: rgb(129, 44, 46)
-}
-a:visited {color: rgb(180, 24, 25)
-}
+a {color: rgb(129, 24, 25)}
+a:hover {color: rgb(129, 24, 25)}
+a:active {color: rgb(129, 44, 46)}
+a:visited {color: rgb(180, 24, 25)}
 
+#were-dun-gallery [class*="span"] {float: left!important; clear: right; height: 100%;}
+#were-dun-gallery [class*="span"] img {height: 122px;}
 #were-dun-gallery [class*="span"]:first-child {
         margin-left: 2.564102564102564%;
-    *margin-left: 2.5109110747408616%;
+        *margin-left: 2.5109110747408616%;
   }
 @media print {
-	#were-dun-gallery [class*="span"]:first-child {
+    #were-dun-gallery [class*="span"]:first-child {
         margin-left: 0;
 		*margin-left: 0;
-  }
+    }
 }
 @media (max-width: 767px) {
 #were-dun-gallery [class*="span"]:first-child {
